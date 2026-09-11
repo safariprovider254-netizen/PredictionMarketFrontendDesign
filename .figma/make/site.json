@@ -1,0 +1,10 @@
+{
+  "description": "Engage in prediction markets with a user-friendly platform designed for Kenyan users, offering a familiar betting experience and sleek design.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

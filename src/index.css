@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Geist+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600&display=swap');
+@import 'tailwindcss';
+
+html,
+body,
+#root {
+  height: 100%;
+  font-family: 'Geist', 'Inter', system-ui, sans-serif;
+  background-color: #F2F0EA;
+  color: #152B43;
+}
+
+* {
+  scrollbar-width: none;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+
+@theme inline {
+  --color-mineral: #F2F0EA;
+  --color-warm-white: #FAF9F6;
+  --color-navy: #152B43;
+  --color-sky: #DCE7EF;
+  --color-orange: #E15B36;
+  --font-condensed: 'Barlow Condensed', sans-serif;
+  --font-mono: 'Geist Mono', monospace;
+}
